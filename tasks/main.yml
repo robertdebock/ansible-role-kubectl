@@ -1,0 +1,10 @@
+---
+# tasks file for kubectl
+- name: install kubectl
+  get_url:
+    url: "{{ kubectl_url }}"
+    dest: /usr/bin/kubectl
+    mode: "0755"
+  register: kubectl_install_kubectl
+  until: kubectl_install_kubectl is succeeded
+  retries: 3
