@@ -1,4 +1,4 @@
 ---
 repository:
-  description: Install and configure kubectl on your system.
+  description: Install the latest stable version of kubectl on your system.
   homepage: https://robertdebock.nl/
