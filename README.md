@@ -18,7 +18,7 @@ This example is taken from `molecule/resources/playbook.yml`:
 - name: Converge
   hosts: all
   become: yes
-  gather_facts: no
+  gather_facts: yes
 
   roles:
     - robertdebock.kubectl
