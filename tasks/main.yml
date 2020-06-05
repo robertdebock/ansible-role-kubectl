@@ -4,7 +4,7 @@
   get_url:
     url: "{{ kubectl_url }}"
     dest: /usr/bin/kubectl
-    mode: "0755"
+    mode: "755"
     validate_certs: "{{ kubectl_validate_certs }}"
   register: kubectl_install_kubectl
   until: kubectl_install_kubectl is succeeded
