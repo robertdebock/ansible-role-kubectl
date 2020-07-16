@@ -6,6 +6,3 @@
     dest: /usr/bin/kubectl
     mode: "755"
     validate_certs: "{{ kubectl_validate_certs }}"
-  register: kubectl_install_kubectl
-  until: kubectl_install_kubectl is succeeded
-  retries: 3
