@@ -1,5 +1,6 @@
 ---
 # tasks file for kubectl
+
 - name: install kubectl
   get_url:
     url: "{{ kubectl_url }}"
