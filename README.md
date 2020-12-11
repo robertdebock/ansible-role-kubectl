@@ -2,9 +2,9 @@
 
 Install the latest stable version of kubectl on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-kubectl.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-kubectl)|[![github](https://github.com/robertdebock/ansible-role-kubectl/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-kubectl/actions)|[![quality](https://img.shields.io/ansible/quality/42998)](https://galaxy.ansible.com/robertdebock/kubectl)|[![downloads](https://img.shields.io/ansible/role/d/42998)](https://galaxy.ansible.com/robertdebock/kubectl)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-kubectl.svg)](https://github.com/robertdebock/ansible-role-kubectl/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-kubectl.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-kubectl)|[![github](https://github.com/robertdebock/ansible-role-kubectl/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-kubectl/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-kubectl/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-kubectl)|[![quality](https://img.shields.io/ansible/quality/42998)](https://galaxy.ansible.com/robertdebock/kubectl)|[![downloads](https://img.shields.io/ansible/role/d/42998)](https://galaxy.ansible.com/robertdebock/kubectl)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-kubectl.svg)](https://github.com/robertdebock/ansible-role-kubectl/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
