@@ -2,7 +2,7 @@
 # tasks file for kubectl
 
 - name: install kubectl
-  get_url:
+  ansible.builtin.get_url:
     url: "{{ kubectl_url }}"
     dest: /usr/bin/kubectl
     mode: "755"
