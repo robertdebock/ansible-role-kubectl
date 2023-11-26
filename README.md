@@ -1,4 +1,4 @@
-# Ansible role [kubectl](#kubectl)
+# [Ansible role kubectl](#kubectl)
 
 Install the latest stable version of kubectl on your system.
 
